@@ -2,9 +2,9 @@
 CoreMath
 </h1>
 
-CoreMath.jl is a Julia package wrapping the [CORE-MATH](https://core-math.gitlabpages.inria.fr/) functions. This project provides **correctly-rounded** IEEE 754 mathematical functions.
+CoreMath.jl is a Julia package wrapping the [CORE-MATH](https://core-math.gitlabpages.inria.fr/) functions. This project provides **correctly-rounded** mathematical functions.
 
-See also: [CRlibm.jl](https://github.com/JuliaIntervals/CRlibm.jl), an earlier correctly-rounded library for Julia.
+See also: [CRlibm.jl](https://github.com/JuliaIntervals/CRlibm.jl).
 
 ### What is correct rounding?
 
