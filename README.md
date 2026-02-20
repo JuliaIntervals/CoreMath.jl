@@ -40,13 +40,6 @@ using Pkg; Pkg.add("CoreMath")
 
 ## Usage
 
-> [!WARNING]
-> The floating-point rounding mode must be set to `RoundNearest` for the library to work correctly. Generally, nothing needs to be done, since this is the default value:
-> ```julia
-> julia> rounding(Float64)
-> RoundingMode{:Nearest}()
-> ```
-
 All functions use the `cr_` prefix, and are used as follows:
 
 ```julia
